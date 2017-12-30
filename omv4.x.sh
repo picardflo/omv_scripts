@@ -33,6 +33,7 @@ then
 	apt install hardinfo --yes
 	apt install acpi --yes
 	apt install net-tools --yes
+	apt install dnsutils --yes
 
 	# ManPages - Help pages.
 	apt install man-db --yes
