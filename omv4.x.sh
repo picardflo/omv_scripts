@@ -45,6 +45,7 @@ then
 	#OVM extras
 	wget --directory-prefix=/tmp http://omv-extras.org/openmediavault-omvextrasorg_latest_all4.deb
 	dpkg --force-depends --install /tmp/openmediavault-omvextrasorg_latest_all4.deb
+	apt --fix-broken install
 	rm --force /tmp/openmediavault-omvextrasorg_latest_all4.deb
 
 	# Install extras
